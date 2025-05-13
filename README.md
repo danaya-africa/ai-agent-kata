@@ -41,7 +41,7 @@ Les participants vont apprendre à :
 
 - Node.js v18+
 - Une clé API OpenAI (compte développeur)
-- Notions de base en TypeScript et Express.js
+- Notions de base en TypeScript et Nest.js
 - Aucune dépendance à une base de données (tout est mocké)
 
 ---
