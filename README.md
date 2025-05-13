@@ -9,8 +9,6 @@ Il permet de découvrir comment construire un **agent intelligent** en TypeScrip
 - Orchestrer plusieurs appels de fonctions selon les besoins
 - Déclencher un sous-agent spécialisé (agent secondaire) dans certaines situations
 
----
-
 ## 📚 Contexte pédagogique
 
 En Côte d’Ivoire (et ailleurs), les démarches administratives sont parfois longues, complexes ou peu claires.
@@ -23,8 +21,6 @@ L’idée ici est de **simuler un assistant intelligent** qui aide l’utilisate
 - Résumer la procédure simplement
 - (Bonus) Proposer un rappel ou détecter si une démarche est urgente
 
----
-
 ## 🎯 Objectifs pédagogiques
 
 Les participants vont apprendre à :
@@ -35,8 +31,6 @@ Les participants vont apprendre à :
 - Simuler un sous-agent OpenAI avec ses propres fonctions
 - Structurer un petit backend pour servir cet agent
 
----
-
 ## 🧰 Prérequis techniques
 
 - Node.js v18+
@@ -44,7 +38,6 @@ Les participants vont apprendre à :
 - Notions de base en TypeScript et Nest.js
 - Aucune dépendance à une base de données (tout est mocké)
 
----
 
 ## 🚀 Installation
 
