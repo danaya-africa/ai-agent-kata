@@ -49,7 +49,7 @@ Les participants vont apprendre à :
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/votre-utilisateur/agent-demarches-civ.git
+git clone git@github.com:danaya-africa/ai-agent-kata.git
 cd agent-demarches-civ
 npm install
 cp .env.example .env # Ajoutez votre clé OpenAI ici
