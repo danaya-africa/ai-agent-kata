@@ -1,0 +1,56 @@
+{
+  "estimations": [
+    {
+      "documentType": "Carte Nationale d'Identité",
+      "cost": 5000,
+      "processingTime": {
+        "min": "1 mois",
+        "max": "2 mois"
+      },
+      "validity": "10 ans",
+      "requirements": {
+        "age": "18 ans minimum",
+        "nationality": "Ivoirienne"
+      }
+    },
+    {
+      "documentType": "Passeport",
+      "cost": 75000,
+      "processingTime": {
+        "min": "1 mois",
+        "max": "3 mois"
+      },
+      "validity": "5 ans",
+      "requirements": {
+        "age": "18 ans minimum",
+        "nationality": "Ivoirienne"
+      }
+    },
+    {
+      "documentType": "Extrait d'acte de naissance",
+      "cost": 1000,
+      "processingTime": {
+        "min": "1 jour",
+        "max": "1 semaine"
+      },
+      "validity": "3 mois",
+      "requirements": {
+        "age": "Tous âges",
+        "nationality": "Toutes nationalités"
+      }
+    },
+    {
+      "documentType": "Mariage",
+      "cost": 25000,
+      "processingTime": {
+        "min": "1 mois",
+        "max": "3 mois"
+      },
+      "validity": "Illimitée",
+      "requirements": {
+        "age": "21 ans minimum",
+        "nationality": "Toutes nationalités"
+      }
+    }
+  ]
+} 

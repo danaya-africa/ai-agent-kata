@@ -1,0 +1,78 @@
+{
+  "centers": [
+    {
+      "id": "C001",
+      "name": "Centre d'État Civil d'Abidjan Plateau",
+      "city": "Abidjan",
+      "address": "Boulevard Roume, Plateau",
+      "phone": "27 20 25 00 00",
+      "services": [
+        "Carte Nationale d'Identité",
+        "Passeport",
+        "Extrait d'acte de naissance",
+        "Mariage"
+      ],
+      "openingHours": {
+        "monday": "7:30-15:00",
+        "tuesday": "7:30-15:00",
+        "wednesday": "7:30-15:00",
+        "thursday": "7:30-15:00",
+        "friday": "7:30-15:00"
+      }
+    },
+    {
+      "id": "C002",
+      "name": "Centre d'État Civil de Yopougon",
+      "city": "Abidjan",
+      "address": "Boulevard Principal, Yopougon",
+      "phone": "27 20 25 00 01",
+      "services": [
+        "Carte Nationale d'Identité",
+        "Extrait d'acte de naissance"
+      ],
+      "openingHours": {
+        "monday": "7:30-15:00",
+        "tuesday": "7:30-15:00",
+        "wednesday": "7:30-15:00",
+        "thursday": "7:30-15:00",
+        "friday": "7:30-15:00"
+      }
+    },
+    {
+      "id": "C003",
+      "name": "Centre de Délivrance des Passeports d'Abidjan",
+      "city": "Abidjan",
+      "address": "Boulevard VGE, Cocody",
+      "phone": "27 20 25 00 02",
+      "services": [
+        "Passeport"
+      ],
+      "openingHours": {
+        "monday": "7:30-15:00",
+        "tuesday": "7:30-15:00",
+        "wednesday": "7:30-15:00",
+        "thursday": "7:30-15:00",
+        "friday": "7:30-15:00"
+      }
+    },
+    {
+      "id": "C004",
+      "name": "Centre d'État Civil de Bouaké",
+      "city": "Bouaké",
+      "address": "Avenue principale, Bouaké",
+      "phone": "27 20 25 00 03",
+      "services": [
+        "Carte Nationale d'Identité",
+        "Extrait d'acte de naissance",
+        "Mariage"
+      ],
+      "openingHours": {
+        "monday": "7:30-15:00",
+        "tuesday": "7:30-15:00",
+        "wednesday": "7:30-15:00",
+        "thursday": "7:30-15:00",
+        "friday": "7:30-15:00"
+      }
+    }
+  ]
+}

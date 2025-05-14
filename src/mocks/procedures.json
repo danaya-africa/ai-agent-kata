@@ -1,0 +1,141 @@
+{
+  "procedures": [
+    {
+      "id": "P001",
+      "name": "Carte Nationale d'Identité",
+      "steps": [
+        {
+          "id": "S001",
+          "name": "Prise de rendez-vous",
+          "description": "Se rendre au centre d'état civil le plus proche",
+          "estimatedTime": "1 heure",
+          "requiredDocuments": []
+        },
+        {
+          "id": "S002",
+          "name": "Préparation des documents",
+          "description": "Rassembler les documents nécessaires",
+          "estimatedTime": "1 jour",
+          "requiredDocuments": [
+            "Extrait d'acte de naissance",
+            "Justificatif de domicile",
+            "Photo d'identité",
+            "Quittance de paiement"
+          ]
+        },
+        {
+          "id": "S003",
+          "name": "Dépôt du dossier",
+          "description": "Se présenter au centre avec les documents",
+          "estimatedTime": "2 heures",
+          "requiredDocuments": [
+            "Formulaire de demande",
+            "Documents préparés",
+            "Reçu de paiement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P002",
+      "name": "Passeport",
+      "steps": [
+        {
+          "id": "S004",
+          "name": "Prise de rendez-vous",
+          "description": "Se rendre au centre de délivrance des passeports",
+          "estimatedTime": "1 heure",
+          "requiredDocuments": []
+        },
+        {
+          "id": "S005",
+          "name": "Préparation des documents",
+          "description": "Rassembler les documents nécessaires",
+          "estimatedTime": "1 jour",
+          "requiredDocuments": [
+            "CNI",
+            "Extrait d'acte de naissance",
+            "Justificatif de domicile",
+            "Photo d'identité",
+            "Quittance de paiement"
+          ]
+        },
+        {
+          "id": "S006",
+          "name": "Dépôt du dossier",
+          "description": "Se présenter au centre avec les documents",
+          "estimatedTime": "2 heures",
+          "requiredDocuments": [
+            "Formulaire de demande",
+            "Documents préparés",
+            "Reçu de paiement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P003",
+      "name": "Extrait d'acte de naissance",
+      "steps": [
+        {
+          "id": "S007",
+          "name": "Préparation des documents",
+          "description": "Rassembler les documents nécessaires",
+          "estimatedTime": "1 jour",
+          "requiredDocuments": [
+            "CNI des parents",
+            "Certificat de naissance",
+            "Quittance de paiement"
+          ]
+        },
+        {
+          "id": "S008",
+          "name": "Dépôt du dossier",
+          "description": "Se présenter au centre d'état civil",
+          "estimatedTime": "2 heures",
+          "requiredDocuments": [
+            "Formulaire de demande",
+            "Documents préparés",
+            "Reçu de paiement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P004",
+      "name": "Mariage",
+      "steps": [
+        {
+          "id": "S009",
+          "name": "Préparation des documents",
+          "description": "Rassembler les documents nécessaires",
+          "estimatedTime": "1 semaine",
+          "requiredDocuments": [
+            "CNI des deux époux",
+            "Extrait d'acte de naissance des deux époux",
+            "Certificat de célibat",
+            "Quittance de paiement"
+          ]
+        },
+        {
+          "id": "S010",
+          "name": "Publication des bans",
+          "description": "Attendre la période de publication des bans",
+          "estimatedTime": "1 mois",
+          "requiredDocuments": []
+        },
+        {
+          "id": "S011",
+          "name": "Célébration du mariage",
+          "description": "Se présenter au centre avec les témoins",
+          "estimatedTime": "1 jour",
+          "requiredDocuments": [
+            "Documents préparés",
+            "Témoins (2 minimum)",
+            "Reçu de paiement"
+          ]
+        }
+      ]
+    }
+  ]
+} 
