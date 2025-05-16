@@ -2,7 +2,7 @@ import * as centers from './centers.json';
 import * as procedures from './procedures.json';
 import * as estimations from './estimations.json';
 
-interface Center {
+export interface Center {
   id: string;
   name: string;
   city: string;
@@ -14,7 +14,7 @@ interface Center {
   };
 }
 
-interface Procedure {
+export interface Procedure {
   id: string;
   name: string;
   steps: {
@@ -86,4 +86,8 @@ export function getEstimationByDocument(
     (estimation) =>
       estimation.documentType.toLowerCase() === documentType.toLowerCase(),
   );
+}
+
+export function getAvailableDocumentTypes(): string[] {
+  return procedures.procedures.map((p) => p.name);
 }

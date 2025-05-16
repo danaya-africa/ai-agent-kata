@@ -1,0 +1,17 @@
+meta {
+  name: Search
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3000/agent/execute
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "message": "je souhaite renouveller ma cni a Abidjan"
+  }
+}
