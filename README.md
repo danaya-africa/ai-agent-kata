@@ -1,4 +1,4 @@
-# 🤖 Agent de Démarches Administratives (Formation IA + TypeScript)
+# 🤖 Agent de démarches administratives (Formation Dev IA + TypeScript)
 
 Ce projet a été conçu comme support d’un atelier de formation pour développeurs.  
 Il permet de découvrir comment construire un **agent intelligent** en TypeScript, capable de :
